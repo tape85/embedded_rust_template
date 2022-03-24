@@ -4,12 +4,12 @@ MEMORY
   /* TODO Adjust these memory regions to match your device memory layout */
   
   /* STM32F3DISCOVERY / Linker Script for STM32F303VCT6 */
-  /* FLASH : ORIGIN = 0x08000000, LENGTH = 256K /*
-  /* RAM : ORIGIN = 0x20000000, LENGTH = 40K /*
+  /* FLASH : ORIGIN = 0x08000000, LENGTH = 256K */
+  /* RAM : ORIGIN = 0x20000000, LENGTH = 40K */
 
   /* NUCLEO-F446RE / Linker Script for STM32F446RE */
-  /* FLASH : ORIGIN = 0x08000000, LENGTH = 512K /*
-  /* RAM : ORIGIN = 0x20000000, LENGTH = 128K /*
+  /* FLASH : ORIGIN = 0x08000000, LENGTH = 512K */
+  /* RAM : ORIGIN = 0x20000000, LENGTH = 128K */
 }
 
 /* This is where the call stack will be allocated. */
